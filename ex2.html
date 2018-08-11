@@ -22,7 +22,6 @@
             overflow: hidden;
             background-color: #0ab1ff;
         }
-        /* Style the topnav links */
         
         .topnav a {
             background-color: #0ab1ff;
@@ -30,7 +29,6 @@
             display: block;
             text-decoration-color: white;
         }
-        /* Change color on hover */
         
         .topnav a:hover {
             background-color: #ddd;
@@ -38,10 +36,12 @@
         }
         
         .col-container {
-           overflow: hidden;
+            overflow: hidden;
+            clear: both;
         }
         
-        .col-container.col,.col-container  {
+        .col-container.col,
+        .col-container {
             padding-bottom: 99999px;
             margin-bottom: -99999px;
         }
@@ -52,31 +52,31 @@
     <div style="background-color: #b2e7ff;height: 90px;font: tahoma;font-size: 24px;color: black;text-align: center;border-bottom: 2px #0ab1ff;">
         THIS IS THE HEADER
     </div>
-<div  class="col-container">
-    <div id="sideright" class="col">
-        <h2 style="font: tahoma;font-size: 18px;color: black;">Heading in Side Section</h2>
-        <ul class="topnav">
-            <li><a href="#">Navigation 1</a></li>
-            <br>
-            <li><a href="#">Navigation 2</a></li>
-            <br>
-            <li><a href="#">Navigation 3</a></li>
-            <br>
-            <li><a href="#">Navigation 4</a></li>
-            <br>
-            <li><a href="#">Navigation 5</a></li>
-            <br>
-        </ul>
-        <p style="font: tahoma;font-size: 12px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="col-container">
+        <div id="sideright" class="col">
+            <h2 style="font: tahoma;font-size: 18px;color: black;">Heading in Side Section</h2>
+            <ul class="topnav">
+                <li><a href="#">Navigation 1</a></li>
+                <br>
+                <li><a href="#">Navigation 2</a></li>
+                <br>
+                <li><a href="#">Navigation 3</a></li>
+                <br>
+                <li><a href="#">Navigation 4</a></li>
+                <br>
+                <li><a href="#">Navigation 5</a></li>
+                <br>
+            </ul>
+            <p style="font: tahoma;font-size: 12px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+        </div>
+        <div id="main" class="col">
+            <h2 style="font: tahoma;font-size: 24px;color: black;">This is the heading in main content</h2>
+            <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     </div>
-    <div id="main" class="col">
-        <h2 style="font: tahoma;font-size: 24px;color: black;">This is the heading in main content</h2>
-        <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
     <div style="background-color: #3CFF78;height: 90px;font: tahoma;font-size: 24px;color: black;text-align: center;border-bottom: 2px#0ab1ff;clear: both;">
         THIS IS THE FOOTER
     </div>
