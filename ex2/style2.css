@@ -1,0 +1,59 @@
+.header {
+     background-color: #b2e7ff;
+     width: 1070px;
+     height: 90px;
+     font: tahoma;
+     font-size: 24px;
+     color: black;
+     text-align: center;
+     border-bottom: 2px #0ab1ff;
+}
+ .topnav {
+     overflow: hidden;
+     background-color: #0ab1ff;
+}
+/* Style the topnav links */
+ .topnav a {
+    /* background-color: #0ab1ff;
+    */
+     float: left;
+     display: block;
+     text-decoration-color: white;
+}
+/* Change color on hover */
+ .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+}
+ .footer {
+     background-color: #3CFF78;
+     height: 90px;
+     font: tahoma;
+     font-size: 24px;
+     color: black;
+     text-align: center;
+     border-bottom: 2px#0ab1ff;
+     clear: both;
+     width: 1070px;
+}
+ .container {
+     width: 1170px;
+     margin: 0 auto;
+     display: inline-flex;
+     overflow: hidden;
+     color: #ffffff;
+}
+ .sidebar {
+     background-color: #0ab1ff;
+     padding: 25px 10px 25px 10px;
+     float: left;
+     width: 250px;
+     padding: 15px;
+     margin-right: 0px;
+}
+ .content {
+     background-color: #ededed;
+     padding: 20px;
+     margin: 0px;
+     width: 750px;
+}
