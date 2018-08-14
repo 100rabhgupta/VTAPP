@@ -5,55 +5,81 @@
     <title></title>
 
     <style>
-        #main {
-            background-color: #ededed;
-            padding: 20px;
-            margin: 0px width: 750px;
-        }
-        
-        #sideright {
-            background-color: #0ab1ff;
-            padding: 25px 10px 25px 10px;
-            float: left;
-            width: 250px;
+        .header {
+            background-color: #b2e7ff;
+            width: 1070px;
+            height: 90px;
+            font: tahoma;
+            font-size: 24px;
+            color: black;
+            text-align: center;
+            border-bottom: 2px #0ab1ff;
         }
         
         .topnav {
             overflow: hidden;
             background-color: #0ab1ff;
         }
+        /* Style the topnav links */
         
         .topnav a {
-            background-color: #0ab1ff;
+            /*  background-color: #0ab1ff;*/
             float: left;
             display: block;
             text-decoration-color: white;
         }
+        /* Change color on hover */
         
         .topnav a:hover {
             background-color: #ddd;
             color: black;
         }
         
-        .col-container {
-            overflow: hidden;
+        .footer {
+            background-color: #3CFF78;
+            height: 90px;
+            font: tahoma;
+            font-size: 24px;
+            color: black;
+            text-align: center;
+            border-bottom: 2px#0ab1ff;
             clear: both;
+            width: 1070px;
         }
         
-        .col-container.col,
-        .col-container {
-            padding-bottom: 99999px;
-            margin-bottom: -99999px;
+        .container {
+            width: 1170px;
+            margin: 0 auto;
+            display: inline-flex;
+            overflow: hidden;
+            color: #ffffff;
+        }
+        
+        .sidebar {
+            background-color: #0ab1ff;
+            padding: 25px 10px 25px 10px;
+            float: left;
+            width: 250px;
+            padding: 15px;
+            margin-right: 0px;
+        }
+        
+        .content {
+            background-color: #ededed;
+            padding: 20px;
+            margin: 0px;
+            width: 750px;
         }
     </style>
 </head>
 
 <body>
-    <div style="background-color: #b2e7ff;height: 90px;font: tahoma;font-size: 24px;color: black;text-align: center;border-bottom: 2px #0ab1ff;">
+    <div class="header">
         THIS IS THE HEADER
     </div>
-    <div class="col-container">
-        <div id="sideright" class="col">
+    <!--<div class="main">-->
+    <div class="container">
+        <div class="sidebar">
             <h2 style="font: tahoma;font-size: 18px;color: black;">Heading in Side Section</h2>
             <ul class="topnav">
                 <li><a href="#">Navigation 1</a></li>
@@ -70,14 +96,15 @@
             <p style="font: tahoma;font-size: 12px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         </div>
-        <div id="main" class="col">
+        <div class="content">
             <h2 style="font: tahoma;font-size: 24px;color: black;">This is the heading in main content</h2>
+            <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p style="font: tahoma;font-size: 14px;color: #802525;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
-    <div style="background-color: #3CFF78;height: 90px;font: tahoma;font-size: 24px;color: black;text-align: center;border-bottom: 2px#0ab1ff;clear: both;">
+    <div class="footer">
         THIS IS THE FOOTER
     </div>
 </body>
